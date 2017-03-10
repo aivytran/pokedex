@@ -11,7 +11,3 @@ json.items do
   end
 end
 json.image_url asset_path(@pokemon.image_url)
-
-# json.items do
-#   json.array! @pokemon.items, :id, :name, :price, :happiness
-# end
